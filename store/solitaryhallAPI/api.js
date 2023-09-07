@@ -1,6 +1,6 @@
 import axios from "axios"
 const solitaryhallAPI = axios.create({
-  baseURL: "https://solitary-hall-43058.botics.co",
+  baseURL: "https://enter-here-43058.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_docs_schema_retrieve(payload) {
